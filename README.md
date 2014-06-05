@@ -13,5 +13,5 @@ Pasos
     ```
     La ruta ```C:\sql``` es solo un ejemplo
 3. Copiar los archivos de configuración de la carpeta Config a la carpeta donde se trabajó en el paso anterior. Siguiendo el ejemplo sería ```C:\sql```
-4. Abrir el archivo InstallSQL2008R2EXPR.bat y modificar el password que tendrá el usuario sa reemplazando la sección ```<password>```
+4. Abrir el archivo InstallSQL2008R2EXPR.bat con un editor de texto y modificar el password que tendrá el usuario sa reemplazando la sección ```<password>```
 5. Ya puedes correr el archivo InstallSQL2008R2EXPR.bat y esperar a que termine la instalación :)
