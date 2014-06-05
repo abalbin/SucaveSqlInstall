@@ -10,7 +10,7 @@ echo ===========================================================================
 echo Instalando SQL Server 2008 R2 Express!!
 date/t
 time/t
-"install_files\setup.exe" /SAPWD="<password>" /ConfigurationFile="ConfigurationFile.ini"
+"files\setup.exe" /SAPWD="<password>" /ConfigurationFile="ConfigurationFile.ini"
 date/t
 time/t
 echo Se instalo SQL Server 2008 R2 Express correctamente :)
