@@ -23,11 +23,11 @@ for each tcpProperty in tcpProperties
     end if       
 next
 
-Wscript.Echo "Reiniciando servicioo............................."
+Wscript.Echo "Reiniciando servicio"
 
 RestartServices ".", "MSSQL$SUCAVE"
 
-Wscript.Echo "Se reinició el servicio satisfactoriamente! Puedes probar lo ke has hecho!!"
+Wscript.Echo "Se reinicio el servicio satisfactoriamente!"
 
 Sub RestartServices(Computer, ServiceNames)
   Dim ServiceName, Counter, aServiceNames
